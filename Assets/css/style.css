@@ -81,3 +81,13 @@ button {
   height: 150px;
   resize: none;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b7d5d4;
+  color: #4a5759;
+  text-align: center;
+}
