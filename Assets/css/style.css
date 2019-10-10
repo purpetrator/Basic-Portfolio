@@ -1,5 +1,16 @@
 body {
-  /* background-image: url("/Assets/images/pink_rice.png"); */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("../../Assets/images/pink_rice.png");
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: #4a5759;
 }
@@ -90,4 +101,25 @@ button {
   background-color: #b7d5d4;
   color: #4a5759;
   text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+
+.image-block {
+  position: relative;
+  flex: 1;
+  width: 300px;
+  display: inline-flex;
 }
